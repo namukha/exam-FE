@@ -1,0 +1,50 @@
+body {
+    background-color: #e2e9ff !important;
+}
+
+.App {
+    margin: 20% 30%;
+    min-width: 300px;
+}
+
+.header {
+    padding: 15px;
+    margin-bottom: 20px;
+
+    color: white;
+    background-color: #af7dea;
+    box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.3);
+    height: 70px;
+}
+
+.oneTask {
+    padding: 30px 20px;
+    background-color: white;
+    box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.3);
+}
+
+.oneTask span {
+    margin-left: 30px;
+}
+
+#edit {
+    position: absolute;
+    margin: 0 10px;
+    right: 35px;
+}
+
+#trash {
+    position: absolute;
+    margin: 0 10px;
+    right: 0;
+}
+
+.btn {
+    margin: 0 10%;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    color: white !important;
+    background-color: rgba(175, 125, 234, 0.9) !important;
+    border-radius: 30px !important;
+}
